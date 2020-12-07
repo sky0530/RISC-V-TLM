@@ -106,7 +106,7 @@ In order to compile the project you need SystemC-2.3.2 installed in your system.
 Just change SYSTEMC path in Makefile.
 
 ```
-$ make
+$ make obj && make
 ```
 
 Then, you need to modifiy your LD_LIBRARY_PATH environtment variable to add
